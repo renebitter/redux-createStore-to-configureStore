@@ -6,7 +6,7 @@ import './Products.css';
 
 const Products = (props) => {
   const productList = useSelector((state) => state.shop.products);
-  console.log(productList);
+
   return (
     <ul className='products-list'>
       {productList.map((prod) => (
